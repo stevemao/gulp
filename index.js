@@ -6,7 +6,7 @@ var gutil = require('gulp-util');
 var deprecated = require('deprecated');
 var vfs = require('vinyl-fs');
 
-function Gulp() {
+function Gulp () {
   Orchestrator.call(this);
 }
 util.inherits(Gulp, Orchestrator);
